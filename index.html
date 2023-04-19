@@ -34,39 +34,78 @@
     <nav class="navbar justify-content-center py-2" style="background: #f0f6ff;
     border-bottom: #e4eaf2 2px solid;">
 
-    <div class="navbar col- my-1 px-0 py-0" style="background: #f7f7f6; border: #d6dbe1 1px solid; border-radius: 4px; width: auto;">
+    <div class="navbar col-6 px-0 py-0" style="background: #f7f7f6; border: #d6dbe1 1px solid; border-radius: 4px; width: auto;">
 
         <form class="form col-4">
             <input class="form-control" type="search">
         </form>
         
 <div class="dropdown">
-        <a class="btn dropdown-toggle" type="button" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Alle categorieën...
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Separated link</a>
+        <select class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="text-align: left;" >Alle categorieën...
+            <div class="dropdown-menu py-0">
+                <option value="" disabled selected class="dropdown-header">Kies categorie:</option>
+                <option class="dropdown-item" value="" >Alle categorieën...</option>
+                <option class="dropdown-item" value="" >Antiek</option>
+                <option class="dropdown-item" value="" >Audio, Tv en Foto</option>
+                <option class="dropdown-item" value="" >Auto Diversen</option>
+                <option class="dropdown-item" value="" >Auto's</option>
+                <option class="dropdown-item" value="" >Auto-onderdelen</option>
+                <option class="dropdown-item" value="" >Boeken</option>
+                <option class="dropdown-item" value="" >Caravans en Kamperen</option>
+                <option class="dropdown-item" value="" >Cd's en Dvd's</option>
+                <option class="dropdown-item" value="" >Computers en Software</option>
+                <option class="dropdown-item" value="" >Contacten en Berichten</option>
+                <option class="dropdown-item" value="" >Diensten en Vakmensen</option>
+                <option class="dropdown-item" value="" >Dieren en Toebehoren</option>
+                <option class="dropdown-item" value="" >Doe-het-zelf en Bouw</option>
+                <option class="dropdown-item" value="" >Elektronische apparatuur</option>
+                <option class="dropdown-item" value="" >Fietsen en Brommers</option>
+                <option class="dropdown-item" value="" >Games en Spelcomputers</option>
+                <option class="dropdown-item" value="" >Handtassen en Accessoires</option>
+                <option class="dropdown-item" value="" >Hobby en Vrije tijd</option>
+                <option class="dropdown-item" value="" >Huis en Inrichting</option>
+                <option class="dropdown-item" value="" >Immo</option>
+                <option class="dropdown-item" value="" >Kinderen en Baby's</option>
+                <option class="dropdown-item" value="" >Kleding | Dames</option>
+                <option class="dropdown-item" value="" >Kleding | Heren</option>
+                <option class="dropdown-item" value="" >Motoren</option>
+                <option class="dropdown-item" value="" >Muziek en Instrumenten</option>
+                <option class="dropdown-item" value="" >Postzegels en Munten</option>
+                <option class="dropdown-item" value="" >Sport en Fitness</option>
+                <option class="dropdown-item" value="" >Telecommunicatie</option>
+                <option class="dropdown-item" value="" >Tickets en Kaartjes</option>
+                <option class="dropdown-item" value="" >Tuin en Terras</option>
+                <option class="dropdown-item" value="" >Vacatures</option>
+                <option class="dropdown-item" value="" >Vakantie</option>
+                <option class="dropdown-item" value="" >Verzamelen</option>
+                <option class="dropdown-item" value="" >Watersport en Boten</option>
+                <option class="dropdown-item" value="" >Zakelijke goederen</option>
+                <option class="dropdown-item" value="" >Diversen</option>
             </div>
-        </a>
+        </select>
     </div>
 
         <form class="form col-2 px-4">
-                <input class="form-control py-2" placeholder="Postcode" type="text" style="font-size: .8rem;">
+                <input class="form-control py-2" placeholder="Postcode" type="text" style="font-size: .9rem;">
         </form>
 
        <div class="dropdown">
-        <a class="btn dropdown-toggle  dropdown-toggle-split" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Alle afstanden...
-            <div class="dropdown-menu">
-                <p>Kies afstand:</p>
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-        </a>
+        <select class="btn dropdown-toggle dropdown-toggle-split" type="button" data-bs-toggle="dropdown"aria-haspopup="true" aria-expanded="false" style="font-size: 0.9rem; text-align: left;">
+            <div class="dropdown-menu py-0">
+                <option value="" disabled selected class="dropdown-header">Kies afstand:</option>
+                <option class="dropdown-item">Alle afstanden...</option>
+                <option class="dropdown-item">< 3 km</option>
+                <option class="dropdown-item">< 5 km</option>
+                <option class="dropdown-item">< 10 km</option>
+                <option class="dropdown-item">< 15 km</option>
+                <option class="dropdown-item">< 20 km</option>
+                <option class="dropdown-item">< 25 km</option>
+                <option class="dropdown-item">< 50 km</option>
+                <option class="dropdown-item">< 75 km</option>
+            </div>
+        </select>
     </div>
-        <button class="btn my-2 my-sm-0 col-1 mx-2" style="border-left: #d6dbe1 1px solid; font-size: .9rem; text-align: center;" type="submit">Zoek</button>
+        <button class="btn my-2 my-sm-0 col mx-2" style="border-left: #d6dbe1 1px solid; font-size: .9rem; text-align: center;" type="submit">Zoek</button>
 
     </div>
     </nav>
