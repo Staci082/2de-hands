@@ -31,23 +31,42 @@
 
 <!-- MIDDLE NAVBAR -->
 
-    <nav class="navbar justify-content-center py-3" style="background: #f0f6ff;
+    <nav class="navbar justify-content-center py-2" style="background: #f0f6ff;
     border-bottom: #e4eaf2 2px solid;">
 
-    <div class="navbar col-6 my-1 px-0 py-0" style="background: #f7f7f6; border: #d6dbe1 1px solid; border-radius: 4px; width: auto;">
+    <div class="navbar col- my-1 px-0 py-0" style="background: #f7f7f6; border: #d6dbe1 1px solid; border-radius: 4px; width: auto;">
 
         <form class="form col-4">
             <input class="form-control" type="search">
         </form>
+        
+<div class="dropdown">
+        <a class="btn dropdown-toggle" type="button" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Alle categorieën...
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+        </a>
+    </div>
 
-        <a class="nav-link pe-5 mx-2" href="#" role="button">Alle categorieën...</a>
-
-        <form class="form col-2 px-4 me-2">
-                <input class="form-control" placeholder="Postcode" type="text" style="font-size: .8rem;">
+        <form class="form col-2 px-4">
+                <input class="form-control py-2" placeholder="Postcode" type="text" style="font-size: .8rem;">
         </form>
 
-        <a class="nav-link pe-5 mx-2" href="#" role="button">Alle afstanden...</a>
-        <button class="btn my-2 my-sm-0 col-1 mx-2 ps-5" style="border-left: #d6dbe1 1px solid; font-size: .9rem; text-align: center;" type="submit">Zoek</button>
+       <div class="dropdown">
+        <a class="btn dropdown-toggle  dropdown-toggle-split" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Alle afstanden...
+            <div class="dropdown-menu">
+                <p>Kies afstand:</p>
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+        </a>
+    </div>
+        <button class="btn my-2 my-sm-0 col-1 mx-2" style="border-left: #d6dbe1 1px solid; font-size: .9rem; text-align: center;" type="submit">Zoek</button>
 
     </div>
     </nav>
@@ -58,12 +77,12 @@
     <nav class="navbar justify-content-center py-0 mb-3" style="background: #ffffff; border-bottom: #e4eaf2 2px solid;">
 
     <button class="nav-item nav-link py-3 pe-5" style="border-right: #e4eaf2 2px solid;" href="#">Alle categorieën</button>
-    <button class="nav-item nav-link px-2 py-3" style="border-right: #e4eaf2 2px solid;" href="#"><i class="fa-solid fa-car-rear text-muted pe-2"></i>Auto's</button>
-    <button class="nav-item nav-link px-2 py-3" style="border-right: #e4eaf2 2px solid;" href="#"><i class="fa-solid fa-couch text-muted pe-2"></i>Huis en Inrichting</button>
-    <button class="nav-item nav-link px-2 py-3" style="border-right: #e4eaf2 2px solid;" href="#"><i class="fa-solid fa-seedling text-muted pe-2"></i>Tuin en Terras</button>
-    <button class="nav-item nav-link px-2 py-3" style="border-right: #e4eaf2 2px solid;" href="#"><i class="fa-solid fa-shirt text-muted pe-2"></i>Kleding | Dames</button>
-    <button class="nav-item nav-link px-2 py-3" style="border-right: #e4eaf2 2px solid;" href="#"><i class="fa-solid fa-video text-muted pe-2"></i>Audio, Tv en foto</button>
-    <button class="nav-item nav-link px-2 py-3" href="#"><i class="fa-solid fa-baby-carriage text-muted pe-2"></i>Kinderen en Baby's</button>
+    <button class="nav-item nav-link px-3 py-3" style="border-right: #e4eaf2 2px solid;" href="#"><i class="fa-solid fa-car-rear text-muted pe-2"></i>Auto's</button>
+    <button class="nav-item nav-link px-3 py-3" style="border-right: #e4eaf2 2px solid;" href="#"><i class="fa-solid fa-couch text-muted pe-2"></i>Huis en Inrichting</button>
+    <button class="nav-item nav-link px-3 py-3" style="border-right: #e4eaf2 2px solid;" href="#"><i class="fa-solid fa-seedling text-muted pe-2"></i>Tuin en Terras</button>
+    <button class="nav-item nav-link px-3 py-3" style="border-right: #e4eaf2 2px solid;" href="#"><i class="fa-solid fa-shirt text-muted pe-2"></i>Kleding | Dames</button>
+    <button class="nav-item nav-link px-3 py-3" style="border-right: #e4eaf2 2px solid;" href="#"><i class="fa-solid fa-video text-muted pe-2"></i>Audio, Tv en foto</button>
+    <button class="nav-item nav-link px-3 py-3" href="#"><i class="fa-solid fa-baby-carriage text-muted pe-2"></i>Kinderen en Baby's</button>
 
     </nav>
 
@@ -73,11 +92,11 @@
     <div class="row justify-content-center">
 
 
-    <!--LEFT COLUMN-->
+<!--LEFT COLUMN-->
 
-        <div class="col-sm-2 py-1 mx-3" style="background: #e5e9ee; border-radius: 5px;">
+        <div class="col-md-2 py-1 mx-3" style="background: #e5e9ee; border-radius: 5px;">
 
-    <p class="my-3 ms-1 fw-bold">Uitgelicht</p>
+    <p class="my-3 ms-2 fw-bold text-dark">Uitgelicht</p>
     <ul class="list-group mb-2 ms-1">
         <a class="list-link my-0" style="text-decoration: none;" href="#"><i class="fa-solid fa-car-rear pe-2 text-muted"></i>Auto's</a>
         <li class="list-group-item border-0 pt-0 ms-2" style="background: #e5e9ee;">Vind de auto die bij je past</li>
@@ -92,7 +111,7 @@
         <a class="list-link my-0" style="text-decoration: none;" href="#"><i class="fa-solid fa-hand-holding-heart pe-2 text-muted"></i>Help Oekraïne</a>
         <li class="list-group-item border-0 pt-0 ms-2" style="background: #e5e9ee;">Voor alle hulp, in welke vorm dan ook</li>
 
-    <p class="my-3 ms-0 fw-bold">Afdelingen</p>
+    <p class="my-3 ms-0 fw-bold text-dark">Afdelingen</p>
         <a class="list-link my-0" style="text-decoration: none;" href="#">Antiek</a>
         <a class="list-link my-0" style="text-decoration: none;" href="#">Audio, Tv en Foto</a>
         <a class="list-link my-0" style="text-decoration: none;" href="#">Auto Diversen</a>
@@ -133,9 +152,9 @@
         </div> 
 
 
-    <!--RECOMMENDATIONS MENU BAR THINGY-->
+<!--RECOMMENDATIONS MENU BAR THINGY-->
 
-        <div class="col-lg-6 px-0">
+        <div class="col-lg-8 px-0">
 
             <!--categories-->
             <div class="navbar nav-justified row-6" style="border-bottom: #e4eaf2 1px solid; ">
@@ -145,112 +164,134 @@
             </div>
 
 
-    <!--PRODUCTS-->  
-    <div class="col-md-12">
+<!--PRODUCTS-->  
+
+    <div class="col-md-12" style="font-size: 1rem;">
         <!-- product list -->
-        <div class="row row-cols-5">
-            <div class="col-sm-0 my-1">
-                <div class="card border-0 bg-card-color">
-                    <img src="https://m.media-amazon.com/images/I/51RI5KppdXL._AC_UL320_.jpg"
-                        class="card-img-top px-2" alt="...">
-                    <div class="card-body pt-4 pb-0">
-                        <a class="card-text"  style="text-decoration: none;">JBL Tune 130NC  </a>
+        <div class="row row-cols">
+            <div class="col-sm-3 my-2">
+                <div class="card border-0 bg-card-color" style="box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;">
+                    <img src="./img.png" class="card-img-top" alt="...">
+                    <div class="card-body pt-2 pb-0">
+                        <a class="card-text"  style="text-decoration: none;">Pokemon cards  </a>
                             <p class=" fw-bold" href="#">€4.000</p>
                         
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm-0 my-1">
-                <div class="card border-0 bg-card-color">
-                    <img src="https://m.media-amazon.com/images/I/51RI5KppdXL._AC_UL320_.jpg"
-                        class="card-img-top px-2" alt="...">
-                    <div class="card-body pt-4 pb-0">
-                        <a class="card-text" style="text-decoration: none;">JBL Tune 130NC  </a>
+            <div class="col-sm-3 my-2">
+                <div class="card border-0 bg-card-color" style="box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;">
+                    <img src="img.png" class="card-img-top" alt="...">
+                    <div class="card-body pt-2 pb-0">
+                        <a class="card-text" style="text-decoration: none;">Pokemon cards  </a>
                             <p class=" fw-bold" href="#">€4.000</p>
                         
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm-0 my-1">
-                <div class="card border-0 bg-card-color">
-                    <img src="https://m.media-amazon.com/images/I/51RI5KppdXL._AC_UL320_.jpg"
-                        class="card-img-top px-2" alt="...">
-                    <div class="card-body pt-4 pb-0">
-                        <a class="card-text" style="text-decoration: none;">JBL Tune 130NC  </a>
+            <div class="col-sm-3 my-2">
+                <div class="card border-0 bg-card-color" style="box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;">
+                    <img src="img.png" class="card-img-top" alt="...">
+                    <div class="card-body pt-2 pb-0">
+                        <a class="card-text" style="text-decoration: none;">Pokemon cards  </a>
                             <p class=" fw-bold" href="#">€4.000</p>
                         
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm-0 my-1">
-                <div class="card border-0 bg-card-color">
-                    <img src="https://m.media-amazon.com/images/I/51RI5KppdXL._AC_UL320_.jpg"
-                        class="card-img-top px-2" alt="...">
-                    <div class="card-body pt-4 pb-0">
-                        <a class="card-text" style="text-decoration: none;">JBL Tune 130NC  </a>
+            <div class="col-sm-3 my-2">
+                <div class="card border-0 bg-card-color" style="box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;">
+                    <img src="img.png" class="card-img-top" alt="...">
+                    <div class="card-body pt-2 pb-0">
+                        <a class="card-text" style="text-decoration: none;">Pokemon cards  </a>
                             <p class=" fw-bold" href="#">€4.000</p>
                         
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm-0 my-1">
-                <div class="card border-0 bg-card-color">
-                    <img src="https://m.media-amazon.com/images/I/51RI5KppdXL._AC_UL320_.jpg"
-                        class="card-img-top px-2" alt="...">
-                    <div class="card-body pt-4 pb-0">
-                        <a class="card-text" style="text-decoration: none;">JBL Tune 130NC  </a>
+            <div class="col-sm-3 my-2">
+                <div class="card border-0 bg-card-color" style="box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;">
+                    <img src="img.png" class="card-img-top" alt="...">
+                    <div class="card-body pt-2 pb-0">
+                        <a class="card-text" style="text-decoration: none;">Pokemon cards  </a>
                             <p class=" fw-bold" href="#">€4.000</p>
                         
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm-0 my-1">
-                <div class="card border-0 bg-card-color">
-                    <img src="https://m.media-amazon.com/images/I/51RI5KppdXL._AC_UL320_.jpg"
-                        class="card-img-top px-2" alt="...">
-                    <div class="card-body pt-4 pb-0">
-                        <a class="card-text" style="text-decoration: none;">JBL Tune 130NC  </a>
+            <div class="col-sm-3 my-2">
+                <div class="card border-0 bg-card-color" style="box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;">
+                    <img src="img.png" class="card-img-top" alt="...">
+                    <div class="card-body pt-2 pb-0">
+                        <a class="card-text" style="text-decoration: none;">Pokemon cards  </a>
                             <p class=" fw-bold" href="#">€4.000</p>
                         
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm-0 my-1">
-                <div class="card border-0 bg-card-color">
-                    <img src="https://m.media-amazon.com/images/I/51RI5KppdXL._AC_UL320_.jpg"
-                        class="card-img-top px-2" alt="...">
-                    <div class="card-body pt-4 pb-0">
-                        <a class="card-text" style="text-decoration: none;">JBL Tune 130NC  </a>
+            <div class="col-sm-3 my-2">
+                <div class="card border-0 bg-card-color" style="box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;">
+                    <img src="img.png" class="card-img-top" alt="...">
+                    <div class="card-body pt-2 pb-0">
+                        <a class="card-text" style="text-decoration: none;">Pokemon cards  </a>
                             <p class=" fw-bold" href="#">€4.000</p>
                         
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm-0 my-1">
-                <div class="card border-0 bg-card-color">
-                    <img src="https://m.media-amazon.com/images/I/51RI5KppdXL._AC_UL320_.jpg"
-                        class="card-img-top px-2" alt="...">
-                    <div class="card-body pt-4 pb-0">
-                        <a class="card-text" style="text-decoration: none;">JBL Tune 130NC  </a>
+            <div class="col-sm-3 my-2">
+                <div class="card border-0 bg-card-color" style="box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;">
+                    <img src="img.png" class="card-img-top" alt="...">
+                    <div class="card-body pt-2 pb-0">
+                        <a class="card-text" style="text-decoration: none;">Pokemon cards  </a>
+                            <p class=" fw-bold" href="#">€4.000</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 my-2">
+                <div class="card border-0 bg-card-color" style="box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;">
+                    <img src="img.png" class="card-img-top" alt="...">
+                    <div class="card-body pt-2 pb-0">
+                        <a class="card-text" style="text-decoration: none;">Pokemon cards  </a>
+                            <p class=" fw-bold" href="#">€4.000</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 my-2">
+                <div class="card border-0 bg-card-color" style="box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;">
+                    <img src="img.png" class="card-img-top" alt="...">
+                    <div class="card-body pt-2 pb-0">
+                        <a class="card-text" style="text-decoration: none;">Pokemon cards  </a>
+                            <p class=" fw-bold" href="#">€4.000</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 my-2">
+                <div class="card border-0 bg-card-color" style="box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;">
+                    <img src="img.png" class="card-img-top" alt="...">
+                    <div class="card-body pt-2 pb-0">
+                        <a class="card-text" style="text-decoration: none;">Pokemon cards  </a>
                             <p class=" fw-bold" href="#">€4.000</p>
                         
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm-0 my-1">
-                <div class="card border-0 bg-card-color">
-                    <img src="https://m.media-amazon.com/images/I/51RI5KppdXL._AC_UL320_.jpg"
-                        class="card-img-top px-2" alt="...">
-                    <div class="card-body pt-4 pb-0">
-                        <a class="card-text" style="text-decoration: none; ">JBL Tune 130NC </a>
+            <div class="col-sm-3 my-2">
+                <div class="card border-0 bg-card-color" style="box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;">
+                    <img src="img.png" class="card-img-top" alt="...">
+                    <div class="card-body pt-2 pb-0">
+                        <a class="card-text" style="text-decoration: none; ">Pokemon cards </a>
                             <p class=" fw-bold" href="#">€4.000</p>
                     </div>
                 </div>
